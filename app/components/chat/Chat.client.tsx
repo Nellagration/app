@@ -162,7 +162,7 @@ export const ChatImpl = memo(({ initialMessages, storeMessageHistory }: ChatProp
      */
     await workbenchStore.saveAllFiles();
 
-    const fileModifications = workbenchStore.getFileModifcations();
+    const fileModifications = workbenchStore.getFileModifications();
 
     chatStore.setKey('aborted', false);
 
