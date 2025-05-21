@@ -19,6 +19,8 @@ export function useSnapScroll() {
         }
       });
 
+      observerRef.current = observer;
+
       observer.observe(node);
     } else {
       observerRef.current?.disconnect();
