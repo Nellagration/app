@@ -21,6 +21,17 @@ Whether you’re an experienced developer, a PM or designer, Nellagration App al
 
 For developers interested in building their own AI-powered development tools with WebContainers, check out the open-source Nellagration codebase in this repo!
 
+## Running Locally
+
+To try Nellagration locally you'll need [Node.js](https://nodejs.org/) and [pnpm](https://pnpm.io/) installed. After cloning the repository, install dependencies and start the dev server:
+
+```bash
+pnpm install
+pnpm run dev
+```
+
+If you see an error about a missing `@remix-run/node` package, it usually means dependencies were not installed. Running `pnpm install` resolves this.
+
 ## Tips and Tricks
 
 Here are some tips to get the most out of Nellagration App:
